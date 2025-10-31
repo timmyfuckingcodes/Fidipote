@@ -1,0 +1,15 @@
+.bodyImage{
+    width:100%;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.bodyImage img{
+ width: 110%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 23px;
+}
+.bodyContainer{
+    position: relative;
+}

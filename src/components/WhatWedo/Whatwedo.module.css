@@ -1,0 +1,150 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.textContainer{
+    text-align: left;
+    width: 34.5rem;
+    flex: 1;
+    max-width: 500px;
+}
+.header{
+    font-family: 'gilroy-SemiBold';
+    color: #DA8001;
+    
+}
+.boxframe{
+    width: 50px;
+    height: 50px;
+    background-color: #FFDFB3;
+    position: relative;
+    top: 30px;
+   
+}
+
+/* ServiceSection.module.css */
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 4rem 2rem;
+  }
+  
+  .serviceItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  /* Alternate layout for even sections */
+  .container:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .textContent {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .textContainer h3 {
+    font-size: 1.25rem;
+    color: #f7941d; /* orange heading */
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .textContainer p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  /* Image Styling */
+  .imageWrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imageWrapper img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    display: block;
+    object-fit: cover;
+  }
+  
+  /* Orange corner accents */
+  .cornerAccent {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #f9c17b;
+    z-index: -1;
+  }
+  
+  .cornerAccent.topLeft {
+    top: -1.25rem;
+    left: 4.25rem;
+    border-top-left-radius: 8px;
+  }
+  
+  .cornerAccent.bottomRight {
+    bottom: -1.25rem;
+    right: 4.25rem;
+    border-bottom-right-radius: 8px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .serviceItem {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .textContent {
+      max-width: 100%;
+    }
+  
+    .imageWrapper img {
+      max-width: 100%;
+    }
+  
+    .cornerAccent {
+      width: 50px;
+      height: 50px;
+    }
+
+    @media (min-width: 768px) {
+      .cornerAccent.topLeft {
+        top: 2rem;
+        left: 4.25rem;
+        border-top-left-radius: 8px;
+        display:hidden;
+      }
+      
+      .cornerAccent.bottomRight {
+        bottom: -1.25rem;
+        right: 4.25rem;
+        border-bottom-right-radius: 8px;
+        display: hidden;
+      }
+      .cornerAccent {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        background-color: #f9c17b;
+        z-index: -1;
+        display: hidden;
+      }
+  }
+}

@@ -1,0 +1,15 @@
+.header{
+text-align: center;
+color: black;
+ font-family: 'Gilroy-SemiBold';
+ font-weight: 400;
+ font-size: 40px;
+ letter-spacing: 0%;
+ text-align: center;
+  }
+  .newsCard{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }

@@ -1,0 +1,29 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    
+
+}
+.headerImage{
+   width:5rem;
+   height: 4.1rem;
+}
+
+.headerImage img{
+    width:5rem;
+    height: 4rem;
+    object-fit: cover;
+}
+
+.navigation{
+ display: flex;
+gap: 2.5rem;
+align-items: center;
+}
+h2{
+    font-weight: 100;
+}
+
+

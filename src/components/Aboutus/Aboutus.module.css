@@ -1,0 +1,34 @@
+.header{
+    color: black;
+    text-align: center;
+   font-weight: 400;
+   font-size: 40px;
+}
+.container{
+    margin-top: 3rem;
+    text-align: center;
+}
+@media (min-width:468px) {
+    .header{
+        text-align: center;
+    }
+}
+.border{
+    color: #FFAB35;
+    width: 568px;
+    height: 3px;
+    background-color: yellow;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+   margin-top: 1rem;
+}
+.headerContainer{
+    display: flex;
+}
+.weDOcontainer{
+    margin: 3rem;
+}
+h4{
+    margin-bottom: 0px;
+}
