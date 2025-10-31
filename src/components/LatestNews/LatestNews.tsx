@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './LatestNews.module.css'
 import NewsCard from '../newsCard/NewsCard'
-const LatestNews = () => {
+const LatestNews:React.FC = () => {
   return (
     <div>
       <h4 className={classes.header}>Latest News</h4>

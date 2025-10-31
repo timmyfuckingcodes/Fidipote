@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Card.module.css'
 import { UserRoundCheck } from 'lucide-react'
-const Card = () => {
+const Card:React.FC= () => {
   return (
     <div className={classes.Card}>
       <UserRoundCheck />

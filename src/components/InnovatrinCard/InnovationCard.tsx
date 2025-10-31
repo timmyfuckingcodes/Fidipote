@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './InnovationCard.module.css'
 import { Check } from "lucide-react";
-const InnovationCard = () => {
+const InnovationCard:React.FC = () => {
     return (
         <div className= {classes.card}>
           <div className={classes.iconWrapper}>
