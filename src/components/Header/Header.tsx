@@ -2,6 +2,7 @@ import React from 'react'
 import HeaderImage from '../../assets/HeaderImage.png'
 import classes from '../Header/Header.module.css'
 import Button from '../../UI/button'
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header: React.FC = () => {
   return (
@@ -16,12 +17,12 @@ const Header: React.FC = () => {
     <h2>Options</h2>
     </div>
 
-<div>
+<div className={classes.button}>
    <Button>
     Sign up
    </Button>
 </div>
-
+<GiHamburgerMenu className={classes.hamburger}/>
 </div>
   )
 }

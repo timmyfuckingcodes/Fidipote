@@ -2,7 +2,7 @@
     background-color: #1F160B;
     width: 100%;
     padding-top: 1.5rem;
-    height: 40rem;
+    
 }
 .header{
 font-family: Gilroy-SemiBold;
@@ -34,5 +34,6 @@ text-align: center;
 }
 .headerContainer{
     display:flex;
-    flex-direction: row ;
+
+    flex-wrap: wrap;
 }

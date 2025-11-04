@@ -12,6 +12,7 @@ const OurMission = () => {
         </div>
         <div className={classes.border}></div>
         <div>
+        <div className={classes.MissionContainer}>
             <h4 className={classes.header}>Our Mission</h4>
             <div className={classes.headerContainer}>
             <InnovationCard/>
@@ -20,7 +21,8 @@ const OurMission = () => {
             </div>
            </div>
            <div className={classes.border}></div>
-    </div>
+          </div>
+      </div>
   )
 }
 

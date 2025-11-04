@@ -44,3 +44,9 @@ padding-bottom: 10px;
        padding-left: 10px;
        margin: 20px;
  }
+ @media (max-width: 768px) {
+      .footerText{
+        font-size: 1em;
+        width:20em;
+      }
+ }

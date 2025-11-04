@@ -147,4 +147,10 @@
         display: hidden;
       }
   }
+
+  @media (max-width: 768px) {
+    .cornerAccent{
+      display:none;
+    }
+  }
 }
